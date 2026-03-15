@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&display=swap');
 :root {
-    --primary-color: #d1b46a; /* Màu vàng kim sang trọng của theme */
+    --primary-color: #d1b46a;
     --dark-bg: #111111;
     --light-bg: #f8f9fa;
     --text-muted: #888888;
