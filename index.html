@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AKKU - Cafe and Restaurant Landing Page</title>
+    <link rel="icon" href="image/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-image">
+        <nav class="navbar navbar-expand-sm" aria-label="Offcanvas navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./image/logo.png" alt="Logo" /></a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title"><img src="./image/logo.png" alt="Logo" /></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="home">
+            <div class="text-white">
+                <h1 class="b-two">WELCOME TO</h1>
+                <h1 class="fw-bold">Elegant Theme for Restaurants, Cafes & Food Related Business</h1>
+                <p class="mt-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut mollitia ipsa, error aperiam at suscipit.</p>
+                <button class="btn btn-success px-4 py-2">Order Now</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="ab-bg py-5 my-5">
+        <div id="about">
+            <div class="flex-wrap">
+                <div>
+                    <h5 class="a-two mb-3">About Us</h5>
+                    <h1>We Are The Modern Restaurant In Our City</h1>
+                    <p class="mt-4 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt mollitia atque possimus similique id, officia corporis ipsam veritatis aspernatur eum vitae neque dicta ratione doloribus quas, ut, tempore ex illo ullam voluptatum velit ad accusamus! Nulla fugiat labore dolor, in unde.</p>
+                    <button class="btn btn-success px-4 py-2">Read More</button>
+                </div>
+                <div>
+                    <img class="img-fluid image-one shadow" src="image/02.jpg" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-bg py-5">
+        <div id="service">
+            <div>
+                <div class="s-one text-center mb-5">
+                    <h1 class="fw-bold">Our Services</h1>
+                </div>
+            </div>
+            <div class="owl-carousel flex--wrap">
+                <div class="card-one text-center pb-4 shadow">
+                    <img src="image/03.jpg" alt="Stage Decorations">
+                    <h4 class="s-three mt-3">Stage Decorations</h4>
+                    <p class="px-3 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum veniam, minima molestias.</p>
+                </div>
+                <div class="card-one text-center pb-4 shadow">
+                    <img src="image/04.jpg" alt="Valet Parking">
+                    <h4 class="s-three mt-3">Valet Parking</h4>
+                    <p class="px-3 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum veniam, minima molestias.</p>
+                </div>
+                <div class="card-one text-center pb-4 shadow">
+                    <img src="image/05.jpg" alt="WiFi">
+                    <h4 class="s-three mt-3">WiFi</h4>
+                    <p class="px-3 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum veniam, minima molestias.</p>
+                </div>
+                <div class="card-one text-center pb-4 shadow">
+                    <img src="image/06.jpg" alt="Awarded">
+                    <h4 class="s-three mt-3">Awarded</h4>
+                    <p class="px-3 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum veniam, minima molestias.</p>
+                </div>
+                <div class="card-one text-center pb-4 shadow">
+                    <img src="image/07.jpg" alt="Fresh Environment">
+                    <h4 class="s-three mt-3">Fresh Environment</h4>
+                    <p class="px-3 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum veniam, minima molestias.</p>
+                </div>
+                <div class="card-one text-center pb-4 shadow">
+                    <img src="image/08.jpg" alt="Creative Chefs">
+                    <h4 class="s-three mt-3">Creative Chefs</h4>
+                    <p class="px-3 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum veniam, minima molestias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-color-one py-5">
+        <div id="menu">
+            <div>
+                <div class="mb-4 m-one text-center">
+                    <h1 class="fw-bold">Our Special Menu</h1>
+                </div>
+                <div class="menu-one">
+                    <img src="image/menu/01.jpg" alt="Raw Cake">
+                    <div class="content">
+                        <div class="title">
+                            <span class="h4">Raw Cake</span>
+                            <span class="h4">$15</span>
+                        </div>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="menu-one">
+                    <img src="image/menu/02.jpg" alt="Plant Burger">
+                    <div class="content">
+                        <div class="title">
+                            <span class="h4">Plant Burger</span>
+                            <span class="h4">$18</span>
+                        </div>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="menu-one">
+                    <img src="image/menu/03.jpg" alt="Mushrooms Pasta">
+                    <div class="content">
+                        <div class="title">
+                            <span class="h4">Mushrooms Pasta</span>
+                            <span class="h4">$10</span>
+                        </div>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="menu-one">
+                    <img src="image/menu/04.jpg" alt="Orange Juice">
+                    <div class="content">
+                        <div class="title">
+                            <span class="h4">Orange Juice</span>
+                            <span class="h4">$12</span>
+                        </div>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="menu-one">
+                    <img src="image/menu/05.jpg" alt="Fish Pie">
+                    <div class="content">
+                        <div class="title">
+                            <span class="h4">Fish pie</span>
+                            <span class="h4">$15</span>
+                        </div>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="menu-one">
+                    <img src="image/menu/06.jpg" alt="Garden Salad">
+                    <div class="content">
+                        <div class="title">
+                            <span class="h4">Garden salad</span>
+                            <span class="h4">$9</span>
+                        </div>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="t-color py-5 text-center text-white">
+        <div class="py-5">
+            <p class="fw-bold">Opening Hour</p>
+            <p class="h2 t-two mb-4">WE ARE OPEN EVERYDAY</p>
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe provident debitis voluptatum.</p>
+            <p class="t-two fw-bold">RESERVATION NUMBER</p>
+            <p class="h4 mb-4">+11 22 33 44 55</p>
+            <p class="h5 mt-5 text-uppercase">Monday to Friday</p>
+            <p class="h3 t-two">09 : 00 - 22 : 00</p>
+        </div>
+    </section>
+
+    <section class="ga-bg py-5">
+        <div class="g-3">
+            <div class="g-one text-center mb-4">
+                <h1 class="fw-bold">OUR GALLERY</h1>
+            </div>
+            <div class="g-two shadow"><img src="image/gallery/01.jpg" alt="Gallery"></div>
+            <div class="g-two shadow"><img src="image/gallery/02.jpg" alt="Gallery"></div>
+            <div class="g-two shadow"><img src="image/gallery/03.jpg" alt="Gallery"></div>
+            <div class="g-two shadow"><img src="image/gallery/04.jpg" alt="Gallery"></div>
+            <div class="g-two shadow"><img src="image/gallery/05.jpg" alt="Gallery"></div>
+            <div class="g-two shadow"><img src="image/gallery/06.jpg" alt="Gallery"></div>
+            <div class="g-two shadow"><img src="image/gallery/07.jpg" alt="Gallery"></div>
+            <div class="g-two shadow"><img src="image/gallery/08.jpg" alt="Gallery"></div>
+        </div>
+    </section>
+
+    <section class="bn-image py-5">
+        <div id="blog">
+            <div>
+                <div class="bn-one text-center text-white">
+                    <h1 class="bn-color display-4 fw-bold">LATEST</h1>
+                    <h4 class="fw-bold">BLOG</h4>
+                </div>
+                <div class="bn-two text-white pb-0">
+                    <p class="mb-2 px-4 pt-4 text-muted">DEC 10, 2022</p>
+                    <h3 class="px-4">Royal Yacht Club Cocktail</h3>
+                    <p class="px-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum.</p>
+                    <p class="bn-three fw-bold text-center mt-4 py-3 mb-0">ALL ABOUT COFFEE</p>
+                </div>
+                <div class="bn-two text-white pb-0">
+                    <p class="mb-2 px-4 pt-4 text-muted">DEC 10, 2022</p>
+                    <h3 class="px-4">Chocolate Muffins Gift</h3>
+                    <p class="px-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum.</p>
+                    <p class="bn-three fw-bold text-center mt-4 py-3 mb-0">ALL ABOUT COFFEE</p>
+                </div>
+                <div class="bn-two text-white pb-0">
+                    <p class="mb-2 px-4 pt-4 text-muted">DEC 10, 2022</p>
+                    <h3 class="px-4">Chiles Add More Than Heat</h3>
+                    <p class="px-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum.</p>
+                    <p class="bn-three fw-bold text-center mt-4 py-3 mb-0">ALL ABOUT COFFEE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="r-bg py-5">
+        <div>
+            <div class="r-one text-center mb-5">
+                <h1 class="fw-bold">Reviews</h1>
+                <hr class="w-25 mx-auto border-2">
+            </div>
+            <div>
+                <div class="card borderr shadow text-center bg-white px-4 pb-4">
+                    <img src="image/review/01.jpg" class="imagee" alt="Reviewer">
+                    <h4 class="fw-bold r-two mt-4">Very Nice Environment</h4>
+                    <div class="mb-3">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>It is very hard to find a good cafe. This place is such a beautiful thing that has happened to us.</p>
+                    <p class="fw-bold mt-3 r-two mb-0">Rohit Sharma, India</p>
+                </div>
+                <div class="card borderr shadow text-center bg-white px-4 pb-4">
+                    <img src="image/review/02.jpg" class="imagee" alt="Reviewer">
+                    <h4 class="fw-bold r-two mt-4">Awesome Burger</h4>
+                    <div class="mb-3">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>The food is delicious and the coffee is brilliant. It's definitely a big bang for a little buck.</p>
+                    <p class="fw-bold mt-3 r-two mb-0">Steven Smith, Sydney</p>
+                </div>
+                <div class="card borderr shadow text-center bg-white px-4 pb-4">
+                    <img src="image/review/03.jpg" class="imagee" alt="Reviewer">
+                    <h4 class="fw-bold r-two mt-4">Amazing Decorations</h4>
+                    <div class="mb-3">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>It is very hard to find a good cafe. This place is such a beautiful thing that has happened to us.</p>
+                    <p class="fw-bold mt-3 r-two mb-0">Moen Ali, Pakistan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="chefs-bg py-5">
+        <div class="g-0 text-white">
+            <div class="c-one text-center fw-bold mb-5 w-100">
+                <h1>Meet Our Chefs</h1>
+            </div>
+            <div class="c-two p-4">
+                <h3 class="fw-bold">Mr. John</h3>
+                <h5 class="c-three fw-bold my-3">Master Chef In New York</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem repudiandae ipsam, harum nostrum.</p>
+            </div>
+            <div class="c-image"><img src="image/chefs/01.jpg" alt="Chef"></div>
+            <div class="c-image"><img src="image/chefs/02.jpg" alt="Chef"></div>
+            <div class="c-two p-4">
+                <h3 class="fw-bold">Mr. David</h3>
+                <h5 class="c-three fw-bold my-3">Master Chef In Florida</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem repudiandae ipsam, harum nostrum.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="con-bg py-5" id="contact">
+        <div class="bg-white p-5 rounded shadow">
+            <div class="c-one text-center fw-bold mb-4">
+                <h2 class="text-dark">Contact Us</h2>
+            </div>
+            <form action="POST">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    <label for="email">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="subject" placeholder="Your Subject">
+                    <label for="subject">Your Subject</label>
+                </div>
+                <div class="form-floating mb-4">
+                    <textarea class="form-control" id="comments" placeholder="Your message" style="height: 120px"></textarea>
+                    <label for="comments">Your message</label>
+                </div>
+                <button type="submit" class="button-one">Send message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="ft-imgg pt-5 pb-4">
+        <div>
+            <div class="text-white text-center">
+                <div class="f-one">
+                    <i class="fa-solid fa-location-dot h1 mb-3"></i>
+                    <h4 class="fw-bold mb-2">Location</h4>
+                    <p class="text-muted">08 W 36th St, New York, NY 10001</p>
+                </div>
+                <div class="f-one">
+                    <i class="fa-solid fa-clock h1 mb-3"></i>
+                    <h4 class="fw-bold mb-2">Opening Hour</h4>
+                    <p class="text-muted">Monday to Friday<br>09:00 - 22:00</p>
+                </div>
+                <div class="f-one">
+                    <i class="fa-solid fa-envelope h1 mb-3"></i>
+                    <h4 class="fw-bold mb-2">Contact Us</h4>
+                    <p class="text-muted">Phone: +11 22 33 44 55<br>Email: contact@example.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="end-bg border-top border-dark">
+        <div>
+            <div class="pt-3">
+                <div><img src="image/logo.png" alt="Logo" width="120"></div>
+                <div class="text-muted small">© Copyright 2022 - Stradale by Designesia</div>
+                <div class="en-three">
+                    <a href="#"><i class="fa-brands fa-twitter h5"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram h5"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord h5"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube h5"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
